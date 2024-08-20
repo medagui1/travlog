@@ -2,16 +2,18 @@ body {
   background-color: #E8E8E8;
 }
 
+/*
+* HEADER
+*/
 
-.menu-btn svg path {
-  /* fill: black; */
-  transition: fill 0.2s ease;
-}
 
 .menu-btn {
   position: relative;
-  transition: background-color;
-  transition-duration: 0.2s ;transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: transform 0.2s ease;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
 }
 
 .menu-btn::before {
@@ -31,10 +33,12 @@ body {
   background-color: #E8E8E8;
 }
 
+.menu-btn svg path {
+  transition: fill 0.2s ease;
+}
+
 .menu-btn:hover svg path {
   fill: #5D50C6;
 }
 
-.menu-btn:hover {
-  transform: scale(1.1);
-}
+
