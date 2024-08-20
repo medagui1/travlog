@@ -2,6 +2,11 @@ body {
   background-color: #E8E8E8;
 }
 
+#root {
+
+  margin-inline: 16px;
+}
+
 /*
 * HEADER
 */
@@ -40,5 +45,3 @@ body {
 .menu-btn:hover svg path {
   fill: #5D50C6;
 }
-
-
