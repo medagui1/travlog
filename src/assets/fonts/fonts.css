@@ -1,1 +1,10 @@
-@import url('./circular-std-medium-500.ttf');
+@font-face {
+    font-family: 'Circular';
+    src: url('./circular-std-medium-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.circular {
+    font-family: 'Circular';
+}
