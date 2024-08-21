@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E8E8E8;
+}
+
+#root {
+
+  margin-inline: 16px;
+}
+
+/*
+* HEADER
+*/
+
+
+.menu-btn {
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
+}
+
+.menu-btn::before {
+  content: '';
+  background-color: #5D50C6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  height: 30px;
+  width: 30px;
+  transition: background-color 0.2s ease;
+}
+
+.menu-btn:hover::before {
+  background-color: #E8E8E8;
+}
+
+.menu-btn svg path {
+  transition: fill 0.2s ease;
+}
+
+.menu-btn:hover svg path {
+  fill: #5D50C6;
+}
+
+.trajectory {
+  z-index: -1;
+}
