@@ -9,6 +9,7 @@ export default {
       colors : {
         primary : '#F85E9F',
         secondary : '#222831',
+        button : '#5D50C6',
         'p-50' : '#19182550',
         p : '#191825'
       },
