@@ -2,7 +2,7 @@ import React from 'react'
 
 const TrajectoryRight = () => {
   return (
-    <div className='relative'>
+    <div className='trajectory relative'>
         <img src="images/hero/plane.png" height={12} width={12} className='absolute right-[56px] top-[-10px] rotate-[245deg] ' alt="" />
         <img
         src="images/hero/trajectory-right.svg"

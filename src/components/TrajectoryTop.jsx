@@ -2,7 +2,7 @@ import React from "react";
 
 const TrajectoryTop = () => {
   return (
-    <div className="h-[77px] absolute top-[-20px] left-[50%] translate-x-[-50%] ">
+    <div className="trajectory h-[77px] absolute top-[-20px] left-[50%] translate-x-[-50%]">
       {/* <img
         src="images/hero/trajectory-top.svg"
         alt=""

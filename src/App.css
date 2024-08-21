@@ -45,3 +45,7 @@ body {
 .menu-btn:hover svg path {
   fill: #5D50C6;
 }
+
+.trajectory {
+  z-index: -1;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="my-8 mx-4 flex justify-between">
+    <header className="py-8 flex justify-between">
       <div className="logo flex gap-4 items-center">
         <img src="icons/logo.svg" alt="" height={40} width={40} />
         <p className="font-bold text-[24px] ">Travlog</p>
