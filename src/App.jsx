@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
+import Clients from "./sections/Clients";
 
 function App() {
   return (
