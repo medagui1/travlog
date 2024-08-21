@@ -14,7 +14,7 @@ const HeroContent = () => {
         Travel <span className="text-primary">top destination</span> of the
         world
       </h1>
-      <p className="text-fs-p text-p mt-normal">
+      <p className="text-fs-p text-p-50 mt-normal">
         We always make our customer happy by providing as many choices as
         possible{" "}
       </p>
