@@ -8,6 +8,7 @@ import Clients from "./sections/Clients";
 import Services from "./sections/Services";
 import Destinations from "./sections/Destinations";
 import TravelPoints from "./sections/TravelPoints";
+import KeyFeatures from "./sections/KeyFeatures";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <Destinations />
         <TravelPoints />
+        <KeyFeatures />
       </main>
     </>
   );
