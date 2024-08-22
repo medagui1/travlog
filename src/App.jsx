@@ -7,6 +7,7 @@ import Hero from "./sections/Hero";
 import Clients from "./sections/Clients";
 import Services from "./sections/Services";
 import Destinations from "./sections/Destinations";
+import TravelPoints from "./sections/TravelPoints";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Clients />
         <Services />
         <Destinations />
+        <TravelPoints />
       </main>
     </>
   );

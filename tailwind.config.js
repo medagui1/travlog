@@ -11,7 +11,8 @@ export default {
         secondary : '#222831',
         button : '#5D50C6',
         'p-50' : '#19182550',
-        p : '#191825'
+        p : '#191825',
+        important : '#FF5722'
       },
       fontSize : {
         'h1' : '40px',
@@ -23,7 +24,7 @@ export default {
         thin : '16px',
         wide : '32px',
         normal : '24px',
-        
+        widest : '64px'
       }
     },
   },

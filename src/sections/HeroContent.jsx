@@ -5,7 +5,7 @@ const HeroContent = () => {
     <div className="text-center w-full flex justify-center items-center flex-col">
       <a
         href="#"
-        className="bg-white text-primary rounded-full py-thin px-wide font-bold flex gap-thin w-max btn"
+        className="bg-white text-primary rounded-full py-thin px-wide font-bold flex gap-thin w-max btn card"
       >
         <p>Explore the world!</p>
         <img src="icons/work.png" alt="" />
@@ -27,7 +27,7 @@ const HeroContent = () => {
         </a>
         <a
           href="#"
-          className="bg-white text-secondary rounded-full font-bold py-normal flex gap-2 justify-center items-center btn"
+          className="bg-white text-secondary rounded-full font-bold py-normal flex gap-2 justify-center items-center btn border-[2px] "
         >
           <img src="icons/hero-watch.png" alt="" />
           <p>Watch Demo</p>
