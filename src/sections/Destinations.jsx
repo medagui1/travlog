@@ -17,7 +17,7 @@ const Destinations = () => {
         <ArrowButton active={true} />
         
       </div>
-      <div className="flex flex-col gap-wide py-wide">
+      <div className="flex flex-col gap-wide py-wide items-center ">
             {destinations.map((item, index) => (
                 <DestinationCard item={item} key={`${index}_${item.name}`} />
             ))}

@@ -5,7 +5,7 @@ const HeroContent = () => {
     <div className="text-center w-full flex justify-center items-center flex-col">
       <a
         href="#"
-        className="bg-white text-primary rounded-full py-thin px-wide font-bold flex gap-thin w-max"
+        className="bg-white text-primary rounded-full py-thin px-wide font-bold flex gap-thin w-max btn"
       >
         <p>Explore the world!</p>
         <img src="icons/work.png" alt="" />
@@ -21,13 +21,13 @@ const HeroContent = () => {
       <div className="flex flex-col gap-normal w-full my-wide">
         <a
           href="#"
-          className="bg-[#5D50C6] text-white rounded-full font-bold py-normal  shadow-xl"
+          className="bg-[#5D50C6] text-white rounded-full font-bold py-normal  shadow-xl btn"
         >
           Get Started
         </a>
         <a
           href="#"
-          className="bg-white text-secondary rounded-full font-bold py-normal flex gap-2 justify-center items-center"
+          className="bg-white text-secondary rounded-full font-bold py-normal flex gap-2 justify-center items-center btn"
         >
           <img src="icons/hero-watch.png" alt="" />
           <p>Watch Demo</p>

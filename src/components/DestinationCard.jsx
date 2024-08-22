@@ -2,7 +2,7 @@ import React from "react";
 
 const DestinationCard = ({ item }) => {
   return (
-    <figure className="rounded-[32px] text-left bg-white max-w-[400px] ">
+    <figure className="rounded-[32px] text-left bg-white max-w-[400px] card">
       <img src={item.img} alt="" className="object-cover w-full " />
       <div className="p-wide">
         <p className="text-primary text-[24px] ">${item.price} </p>

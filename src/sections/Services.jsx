@@ -11,7 +11,7 @@ const Services = () => {
       <p className="text-[32px] mb-wide font-[600] text-p ">
         Our top value categories for you
       </p>
-      <div className="flex flex-col gap-thin">
+      <div className="flex flex-col gap-thin items-center ">
       {services.map((item, index) => (
         <ServiceCard item={item} key={`${index}_${item.title}`} />
       ))}
