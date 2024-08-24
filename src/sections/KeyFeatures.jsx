@@ -16,7 +16,7 @@ const KeyFeatures = () => {
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC.
       </p>
-      <div className="grid grid-rows-4 grid-cols-1 gap-2 w-full justify-items-center">
+      <div className="grid grid-rows-3 grid-cols-1 gap-2 w-full justify-items-center">
         {features.map((item, index) => (
           <FeatureCard  item={item} key={`${index}_${item.title}`} />
         ))}
