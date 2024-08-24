@@ -9,6 +9,7 @@ import Services from "./sections/Services";
 import Destinations from "./sections/Destinations";
 import TravelPoints from "./sections/TravelPoints";
 import KeyFeatures from "./sections/KeyFeatures";
+import Testimonials from "./sections/Testimonials";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Destinations />
         <TravelPoints />
         <KeyFeatures />
+       <Testimonials /> 
       </main>
     </>
   );
